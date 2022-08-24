@@ -2,5 +2,6 @@
 
 function tellApplicable() {
     printf "true\n"
+    
     printf "testing\n"
 }
