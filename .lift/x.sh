@@ -56,12 +56,6 @@ function finalize() {
       "target_branch": null,
       "source_commit": ""
   }
-, "warnings" : [ 
-    { 
-      "display_message": "display warning during finalize",
-      "detailed_message": "detailed warning during finalize"
-    }
-  ]
 }
 EOF
 }
