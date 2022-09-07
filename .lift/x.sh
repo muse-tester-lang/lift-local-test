@@ -24,7 +24,13 @@ function run() {
                      "line" : 3,
                      "noteId" : "noteid"
                    }
-               ]}'
+               ]
+                , "warnings" : [
+                  { "display_message" : "display warning during run"
+                  , "detailed_message" : "detailed warning during run"
+                  }
+                ] 
+                }'
 }
 
 function finalize() {
