@@ -3,9 +3,7 @@
 set -e
 
 function tellApplicable() {
-    printf "true\n" 
-    
-    printf "testing\n"
+    printf "true\n" "$res"
 }
 
 function tellVersion() {
@@ -24,13 +22,13 @@ function run() {
                      "line" : 3,
                      "noteId" : "noteid"
                    }
-               ]
-                , "warnings" : [
+                ]
+              , "warnings" : [
                   { "display_message" : "display warning during run"
                   , "detailed_message" : "detailed warning during run"
                   }
                 ] 
-                }'
+              }'
 }
 
 function finalize() {
@@ -45,8 +43,8 @@ function finalize() {
         echo "" >> /tmp/x.sh.finalize.log
         cat <<EOF
 { "toolNotes" : [
-    { "type" : "type during run",
-      "message" : "run message",
+    { "type" : "type during finalize",
+      "message" : "finalize message",
       "file" : "a.c",
       "line" : 3,
       "noteId" : "noteid"
@@ -56,8 +54,14 @@ function finalize() {
       "title": "x.sh PR",
       "body": "Bug fixes and performance improvements",
       "target_branch": null,
-      "source_commit": null
+      "source_commit": ""
   }
+, "warnings" : [ 
+    { 
+      "display_message": "display warning during finalize",
+      "detailed_message": "detailed warning during finalize"
+    }
+  ]
 }
 EOF
 }
@@ -83,4 +87,3 @@ case "$3" in
         tellVersion
         ;;
 esac
-
