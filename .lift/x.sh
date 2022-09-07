@@ -54,7 +54,7 @@ function finalize() {
       "title": "x.sh PR",
       "body": "Bug fixes and performance improvements",
       "target_branch": null,
-      "source_commit": ""
+      "source_commit": null
   }
 }
 EOF
