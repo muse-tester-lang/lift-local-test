@@ -4,7 +4,6 @@ set -e
 
 function tellApplicable() {
     printf "true\n" "$res"
-    
     printf "another\n" "$another"
     
 }
