@@ -9,7 +9,7 @@ function tellApplicable() {
 }
 
 function tellVersion() {
-    echo "per file v2"
+    echo "per file v1"
 }
 
 function run() {
