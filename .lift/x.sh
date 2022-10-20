@@ -6,6 +6,8 @@ function tellApplicable() {
     printf "true\n" "$res"
     
     printf "another\n" "$another"
+    
+    printf "and another\n" "$andanother"
 }
 
 function tellVersion() {
