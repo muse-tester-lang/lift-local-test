@@ -4,7 +4,6 @@ set -e
 
 function tellApplicable() {
     printf "true\n" "lolo"
-    printf "true\n"
 }
 
 function tellVersion() {
