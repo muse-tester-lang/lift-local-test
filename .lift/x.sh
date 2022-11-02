@@ -13,8 +13,6 @@ function tellApplicable() {
     printf "true\n" "8do par"
     printf "true\n" "9do par"
     printf "true\n" "10do par"
-    printf "true\n" "11do par"
-    printf "true\n" "12do par"
 }
 
 function tellVersion() {
