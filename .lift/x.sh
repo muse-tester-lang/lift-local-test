@@ -5,7 +5,7 @@ set -e
 function tellApplicable() {
     printf "true\n"
     printf "true\n"
-    printf "true\n" "3do par"
+    printf "true\n" "1do par"
 
 }
 
