@@ -4,6 +4,9 @@ set -e
 
 function tellApplicable() {
     printf "true\n"
+    printf "true\n"
+    printf "true\n" "3do par"
+
 }
 
 function tellVersion() {
