@@ -4,4 +4,4 @@ customTools = [
     ]
     
     
-commentStyle = "minimal"
+commentStyle = "normal"
